@@ -637,6 +637,7 @@ async function clusterFacet(
           models,
           named,
           {
+            facetName,
             members: Array.from(members, ([id, { summary }]) => ({
               id,
               summary,
